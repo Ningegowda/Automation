@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+   <!--   <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessSale"/>
+  <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessSaleWithCashback"/>
+      <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessVoid"/>
+      <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessRefund"/>
+        <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessAuth"/>
+         <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessCapture"/>
+          <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessPreAuth"/>
+          <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessPreAuthCompletion"/>
+           <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessCashback"/>
+            <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessCashAdvance"/>
+             <class name="com.pg.acquirer.test.TransactionProcessSale.TransactionProcessTipAdjustment"/> -->
+             <class name="com.pg.acquirer.test.TransactionProcessNFC.TransactionProcessNFCSale"/>
+               <class name="com.pg.acquirer.test.TransactionProcessNFC.TransactionProcessNFCAuth"/>
+                <class name="com.pg.acquirer.test.TransactionProcessNFC.TransactionProcessNFCVoid"/> 
+      
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
